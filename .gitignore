@@ -7,6 +7,11 @@
 **/.pnpm-store/
 
 # ==========================================
+# Docs used for RAG ingestion
+# ==========================================
+**/docs/
+
+# ==========================================
 # Environment Variables and Secrets
 # ==========================================
 # Never commit credentials or local configs

@@ -15,8 +15,12 @@
     "@google/genai": "^2.10.0",
     "@langchain/core": "^1.2.1",
     "@langchain/google-genai": "^2.2.0",
+    "@langchain/pinecone": "^1.0.3",
     "@langchain/textsplitters": "^1.0.1",
+    "@pinecone-database/pinecone": "^5.1.2",
+    "@supabase/supabase-js": "^2.108.2",
     "dotenv": "^17.4.2",
+    "js-tiktoken": "^1.0.21",
     "langchain": "^1.5.2",
     "pdf-parse": "^2.4.5",
     "winston": "^3.19.0"

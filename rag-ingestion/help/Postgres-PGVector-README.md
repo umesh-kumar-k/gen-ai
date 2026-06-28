@@ -7,7 +7,7 @@ Stores one record per uploaded smartwatch manual.
 | Field                 | Type        | Description            | Generate Value                        |
 | --------------------- | ----------- | ---------------------- | ------------------------------------- |
 | `id`                  | UUID PK     | Document identifier    | Generate UUID at upload               |
-| `tenant_id`           | UUID        | Tenant ownership       | From authenticated tenant context     |
+| `tenant_id`           | TEXT        | Tenant ownership       | From authenticated tenant context     |
 | `brand`               | VARCHAR     | Manufacturer name      | Extract from filename/manual metadata |
 | `model_name`          | VARCHAR     | Device model           | Parse title or metadata               |
 | `manual_title`        | TEXT        | Full manual title      | Extract first title page              |
@@ -93,7 +93,7 @@ CREATE TABLE document_chunks (
     document_id UUID NOT NULL REFERENCES documents(id),
 
     content TEXT NOT NULL,
-    embedding VECTOR(1024) NOT NULL, -- should match the exact dimensions of the embedding model that is being used
+    embedding VECTOR(3072) NOT NULL, -- should match the exact dimensions of the embedding model that is being used
     fts_tokens TSVECTOR,
 
     page_number INTEGER,

@@ -51,11 +51,16 @@ Store Conversation + Logs
     - https://docs.langchain.com/oss/javascript/langchain/rag#select-an-embeddings-model
     - https://docs.langchain.com/oss/javascript/integrations/embeddings#google-gemini
 
+
+# Set up Vector DB (Pinecone) [Optional]
+## Note that this steps is optional as we will be usign pgVector to store the embeddings
+  - Set up API Key
+  - Define Vector Store Index
+
 # Set up Vector DB (PostGreSQL + pgVector)
 ## Create an account in Free Tier
 ## Run the SQLs to create the tables
-
-
+  - https://docs.langchain.com/oss/javascript/integrations/vectorstores/pgvector#pgvectorstore-vs-pgvector-which-one-to-use
 
 # Use the Smart Watch User Guides (PDFs) for this application 
 ##  Download Smart Watch documentation from their respective websites
@@ -82,6 +87,9 @@ Store Conversation + Logs
     - dotenv (environment file reader)
     - @langchain/google-genai (for invoking Embedding Model)
     - @google/genai (for invoking Embedding Model)
+    - @langchain/pinecone @pinecone-database/pinecone (for Pinecone Vector DB)
+    - @supabase/supabase-js (PostgreSQL pgVector)
+    - js-tiktoken (for counting tokens)
 
 # Run the Document ingestor program
 
