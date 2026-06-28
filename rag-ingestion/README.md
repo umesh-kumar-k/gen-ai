@@ -80,8 +80,8 @@ Store Conversation + Logs
     - @langchain/textsplitters (RecursiveCharacterTextSplitter)
     - winston (logger)
     - dotenv (environment file reader)
-    - @langchain/google-genai (Embedding Model)
-     
+    - @langchain/google-genai (for invoking Embedding Model)
+    - @google/genai (for invoking Embedding Model)
 
 # Run the Document ingestor program
 
@@ -89,4 +89,3 @@ Store Conversation + Logs
         npm start -- run --source
 
     ```
-
