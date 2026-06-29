@@ -57,7 +57,7 @@ Store Conversation + Logs
   - Set up API Key
   - Define Vector Store Index
 
-# Set up Vector DB (PostGreSQL + pgVector)
+# Set up Vector DB (PostGreSQL + pgVector) on supabase
 ## Create an account in Free Tier
 ## Run the SQLs to create the tables
   - https://docs.langchain.com/oss/javascript/integrations/vectorstores/pgvector#pgvectorstore-vs-pgvector-which-one-to-use
@@ -69,6 +69,7 @@ Store Conversation + Logs
     - Garmin   
 
 # Set up logger 
+   - install winston
 
 ## Get the Document[] from the directory path
     - Multiple pdfs | Parse PDF & convert into langchain Document[]
