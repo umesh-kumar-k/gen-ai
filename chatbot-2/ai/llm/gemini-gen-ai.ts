@@ -32,7 +32,7 @@ const model = new ChatGoogleGenerativeAI({
  * function to test the connectivity to the Google Gemini AI apis
  * @param userMsg 
  */
-export async function getGeminiTextResponse(userMsg: string): Promise<ReadableStream<UIMessageChunk<unknown, UIDataTypes>>> {
+export async function getGeminiTextResponse(userMsg: string, context: string): Promise<ReadableStream<UIMessageChunk<unknown, UIDataTypes>>> {
 
     const promptToLLM = `
 
@@ -40,7 +40,7 @@ export async function getGeminiTextResponse(userMsg: string): Promise<ReadableSt
 
         Context Information from the Smartwatch Manuals:
         ---------------------
-        Not Available
+        ${context}
         ---------------------
 
         Given the context information above, please answer the following user query:

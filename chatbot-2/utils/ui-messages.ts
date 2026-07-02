@@ -1,3 +1,4 @@
+import { DocumentChunk } from "@/types/document-chunk";
 import {
   convertToModelMessages,
   createUIMessageStream,
@@ -7,6 +8,7 @@ import {
   UIMessage,
   UIMessageChunk,
 } from "ai";
+import { logger } from "./logger";
 
 
 export const systemPrompt = `You are a precise smartwatch technical support assistant. Answer queries using ONLY the provided context. 
@@ -45,3 +47,9 @@ export function getLastMessageContent(messages: UIMessage[]): string{
 
   return lastMessageContent;
 }
+
+export function getDocumentContentFromChunks(chunks: DocumentChunk[]): string[] {
+  const documentContents: string[] = [];
+  documentContents.push(...chunks.map((chunk) => chunk.content));
+  return documentContents;
+} 

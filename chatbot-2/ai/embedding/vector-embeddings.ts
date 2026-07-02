@@ -11,7 +11,7 @@ export async function generateEmbeddings(userPrompt: string): Promise<number[]> 
     logger.info(`Generating the embeddings for the users prompt ${userPrompt}`);
     const embeddingModel = getEmbeddingModel();
     const embeddings = await embeddingModel.embedQuery(userPrompt);
-    logger.info(`Embeddings : ${embeddings}`);
+    logger.debug(`Embeddings : ${embeddings}`);
     return embeddings;
 }
 

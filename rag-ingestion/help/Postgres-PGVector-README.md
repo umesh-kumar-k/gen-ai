@@ -87,6 +87,7 @@ Stores chunked manual content for semantic retrieval.
 ## SQL
 
 ```sql
+
 CREATE TABLE document_chunks (
     id BIGSERIAL PRIMARY KEY,
 
@@ -94,7 +95,7 @@ CREATE TABLE document_chunks (
 
     content TEXT NOT NULL,
     embedding VECTOR(3072) NOT NULL, -- should match the exact dimensions of the embedding model that is being used
-    fts_tokens TSVECTOR,
+    fts_tokens TSVECTOR generated always as (to_tsvector('english', content)) stored,  -- fts is Full Text Search
 
     page_number INTEGER,
     section_title TEXT,
@@ -113,6 +114,8 @@ CREATE TABLE document_chunks (
     created_at TIMESTAMPTZ DEFAULT NOW(),
     updated_at TIMESTAMPTZ DEFAULT NOW()
 );
+
+
 ```
 
 ---
