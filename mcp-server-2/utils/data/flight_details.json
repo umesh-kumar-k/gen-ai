@@ -1,0 +1,1494 @@
+{
+  "flightDetails": {
+    "search_metadata": {
+      "id": "6a48d6cfecf5ed87bed395fc",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/_-fyUHjBXt1IJBpK3oAbEA/6a48d6cfecf5ed87bed395fc.json",
+      "created_at": "2026-07-04 09:47:59 UTC",
+      "processed_at": "2026-07-04 09:47:59 UTC",
+      "google_flights_url": "https://www.google.com/travel/flights?hl=en&gl=us&curr=USD&tfs=CBwQAhoeEgoyMDI2LTA3LTIwagcIARIDQkxScgcIARIDSEFNGh4SCjIwMjYtMDgtMjBqBwgBEgNIQU1yBwgBEgNCTFJAAUgBcAGYAQE&tfu=EgIIAQ",
+      "raw_html_file": "https://serpapi.com/searches/_-fyUHjBXt1IJBpK3oAbEA/6a48d6cfecf5ed87bed395fc.html",
+      "prettify_html_file": "https://serpapi.com/searches/_-fyUHjBXt1IJBpK3oAbEA/6a48d6cfecf5ed87bed395fc.prettify",
+      "total_time_taken": 3.91
+    },
+    "search_parameters": {
+      "engine": "google_flights",
+      "hl": "en",
+      "gl": "us",
+      "type": "1",
+      "departure_id": "BLR",
+      "arrival_id": "HAM",
+      "outbound_date": "2026-07-20",
+      "return_date": "2026-08-20",
+      "currency": "USD"
+    },
+    "best_flights": [
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 10:30"
+            },
+            "arrival_airport": {
+              "name": "Dubai International Airport",
+              "id": "DXB",
+              "time": "2026-07-20 12:45"
+            },
+            "duration": 225,
+            "airplane": "Boeing 777",
+            "airline": "Emirates",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "travel_class": "Economy",
+            "flight_number": "EK 565",
+            "legroom": "32 in",
+            "extensions": [
+              "Above average legroom (32 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 206 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Dubai International Airport",
+              "id": "DXB",
+              "time": "2026-07-20 14:30"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 19:45"
+            },
+            "duration": 435,
+            "airplane": "Airbus A350",
+            "airline": "Emirates",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "travel_class": "Economy",
+            "flight_number": "EK 61",
+            "ticket_also_sold_by": [
+              "Qantas"
+            ],
+            "legroom": "32 in",
+            "extensions": [
+              "Above average legroom (32 in)",
+              "Wi-Fi for a fee",
+              "In-seat USB outlet",
+              "On-demand video",
+              "Carbon emissions estimate: 334 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 105,
+            "name": "Dubai International Airport",
+            "id": "DXB"
+          }
+        ],
+        "total_duration": 765,
+        "carbon_emissions": {
+          "this_flight": 541000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 2
+        },
+        "price": 799,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFZ3hGU3pVMk5YeEZTell4SXpFYUN3amw3d1FRQWhvRFZWTkVPQnh3NWU4RSIsW1siQkxSIiwiMjAyNi0wNy0yMCIsIkRYQiIsbnVsbCwiRUsiLCI1NjUiXSxbIkRYQiIsIjIwMjYtMDctMjAiLCJIQU0iLG51bGwsIkVLIiwiNjEiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 21:30"
+            },
+            "arrival_airport": {
+              "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+              "id": "BOM",
+              "time": "2026-07-20 23:35"
+            },
+            "duration": 125,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 2642",
+            "ticket_also_sold_by": [
+              "Lufthansa"
+            ],
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 81 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+              "id": "BOM",
+              "time": "2026-07-21 02:40"
+            },
+            "arrival_airport": {
+              "name": "Frankfurt Airport",
+              "id": "FRA",
+              "time": "2026-07-21 08:05"
+            },
+            "duration": 535,
+            "airplane": "Airbus A340",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 757",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 480 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Frankfurt Airport",
+              "id": "FRA",
+              "time": "2026-07-21 10:00"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-21 11:05"
+            },
+            "duration": 65,
+            "airplane": "Airbus A320",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 12",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Carbon emissions estimate: 57 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 185,
+            "name": "Chhatrapati Shivaji Maharaj International Airport Mumbai",
+            "id": "BOM"
+          },
+          {
+            "duration": 115,
+            "name": "Frankfurt Airport",
+            "id": "FRA"
+          }
+        ],
+        "total_duration": 1025,
+        "carbon_emissions": {
+          "this_flight": 620000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 17
+        },
+        "price": 832,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFaE5CU1RJMk5ESjhURWczTlRkOFRFZ3hNaU14R2dzSXg0a0ZFQUlhQTFWVFJEZ2NjTWVKQlE9PSIsW1siQkxSIiwiMjAyNi0wNy0yMCIsIkJPTSIsbnVsbCwiQUkiLCIyNjQyIl0sWyJCT00iLCIyMDI2LTA3LTIxIiwiRlJBIixudWxsLCJMSCIsIjc1NyJdLFsiRlJBIiwiMjAyNi0wNy0yMSIsIkhBTSIsbnVsbCwiTEgiLCIxMiJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 02:10"
+            },
+            "arrival_airport": {
+              "name": "Munich International Airport",
+              "id": "MUC",
+              "time": "2026-07-20 07:55"
+            },
+            "duration": 555,
+            "airplane": "Airbus A350",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 765",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Wi-Fi for a fee",
+              "In-seat USB outlet",
+              "On-demand video",
+              "Carbon emissions estimate: 444 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Munich International Airport",
+              "id": "MUC",
+              "time": "2026-07-20 10:15"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 11:30"
+            },
+            "duration": 75,
+            "airplane": "Airbus A321",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 2056",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Wi-Fi for a fee",
+              "Carbon emissions estimate: 74 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 140,
+            "name": "Munich International Airport",
+            "id": "MUC"
+          }
+        ],
+        "total_duration": 770,
+        "carbon_emissions": {
+          "this_flight": 519000,
+          "typical_for_this_route": 528000,
+          "difference_percent": -2
+        },
+        "price": 846,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFZ3hNU0RjMk5YeE1TREl3TlRZYUN3ajFsQVVRQWhvRFZWTkVPQnh3OVpRRiIsW1siQkxSIiwiMjAyNi0wNy0yMCIsIk1VQyIsbnVsbCwiTEgiLCI3NjUiXSxbIk1VQyIsIjIwMjYtMDctMjAiLCJIQU0iLG51bGwsIkxIIiwiMjA1NiJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 02:10"
+            },
+            "arrival_airport": {
+              "name": "Munich International Airport",
+              "id": "MUC",
+              "time": "2026-07-20 07:55"
+            },
+            "duration": 555,
+            "airplane": "Airbus A350",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 765",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Wi-Fi for a fee",
+              "In-seat USB outlet",
+              "On-demand video",
+              "Carbon emissions estimate: 444 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Munich International Airport",
+              "id": "MUC",
+              "time": "2026-07-20 11:15"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 12:30"
+            },
+            "duration": 75,
+            "airplane": "Airbus A319",
+            "airline": "Lufthansa City Airlines",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+            "travel_class": "Economy",
+            "flight_number": "VL 2058",
+            "ticket_also_sold_by": [
+              "Lufthansa"
+            ],
+            "legroom": "29 in",
+            "extensions": [
+              "Below average legroom (29 in)",
+              "Carbon emissions estimate: 82 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 200,
+            "name": "Munich International Airport",
+            "id": "MUC"
+          }
+        ],
+        "total_duration": 830,
+        "carbon_emissions": {
+          "this_flight": 527000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 0
+        },
+        "price": 871,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFZzVNU0RjMk5YeFdUREl3TlRnak1ob0xDS0dvQlJBQ0dnTlZVMFE0SEhDaHFBVT0iLFtbIkJMUiIsIjIwMjYtMDctMjAiLCJNVUMiLG51bGwsIkxIIiwiNzY1Il0sWyJNVUMiLCIyMDI2LTA3LTIwIiwiSEFNIixudWxsLCJWTCIsIjIwNTgiXV1d"
+      }
+    ],
+    "other_flights": [
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 21:00"
+            },
+            "arrival_airport": {
+              "name": "Dubai International Airport",
+              "id": "DXB",
+              "time": "2026-07-20 23:20"
+            },
+            "duration": 230,
+            "airplane": "Boeing 777",
+            "airline": "Emirates",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "travel_class": "Economy",
+            "flight_number": "EK 567",
+            "legroom": "32 in",
+            "extensions": [
+              "Above average legroom (32 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 206 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Dubai International Airport",
+              "id": "DXB",
+              "time": "2026-07-21 08:45"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-21 13:35"
+            },
+            "duration": 410,
+            "airplane": "Boeing 777",
+            "airline": "Emirates",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "travel_class": "Economy",
+            "flight_number": "EK 59",
+            "ticket_also_sold_by": [
+              "Qantas"
+            ],
+            "legroom": "32 in",
+            "extensions": [
+              "Above average legroom (32 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 372 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 565,
+            "name": "Dubai International Airport",
+            "id": "DXB"
+          }
+        ],
+        "total_duration": 1205,
+        "carbon_emissions": {
+          "this_flight": 579000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 10
+        },
+        "price": 799,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFZ3hGU3pVMk4zeEZTelU1SXpFYUN3amw3d1FRQWhvRFZWTkVPQnh3NWU4RSIsW1siQkxSIiwiMjAyNi0wNy0yMCIsIkRYQiIsbnVsbCwiRUsiLCI1NjciXSxbIkRYQiIsIjIwMjYtMDctMjEiLCJIQU0iLG51bGwsIkVLIiwiNTkiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 03:00"
+            },
+            "arrival_airport": {
+              "name": "Frankfurt Airport",
+              "id": "FRA",
+              "time": "2026-07-20 09:05"
+            },
+            "duration": 575,
+            "airplane": "Boeing 747",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 755",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 505 kg"
+            ],
+            "overnight": true,
+            "often_delayed_by_over_30_min": true
+          },
+          {
+            "departure_airport": {
+              "name": "Frankfurt Airport",
+              "id": "FRA",
+              "time": "2026-07-20 18:15"
+            },
+            "arrival_airport": {
+              "name": "Munich International Airport",
+              "id": "MUC",
+              "time": "2026-07-20 19:10"
+            },
+            "duration": 55,
+            "airplane": "Airbus A320",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 120",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Carbon emissions estimate: 49 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Munich International Airport",
+              "id": "MUC",
+              "time": "2026-07-20 21:15"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 22:30"
+            },
+            "duration": 75,
+            "airplane": "Airbus A321",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 2078",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Wi-Fi for a fee",
+              "Carbon emissions estimate: 74 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 550,
+            "name": "Frankfurt Airport",
+            "id": "FRA"
+          },
+          {
+            "duration": 125,
+            "name": "Munich International Airport",
+            "id": "MUC"
+          }
+        ],
+        "total_duration": 1380,
+        "carbon_emissions": {
+          "this_flight": 629000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 19
+        },
+        "price": 816,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFaEpNU0RjMU5YeE1TREV5TUh4TVNESXdOemdhQ3dpcC9RUVFBaG9EVlZORU9CeHdxZjBFIixbWyJCTFIiLCIyMDI2LTA3LTIwIiwiRlJBIixudWxsLCJMSCIsIjc1NSJdLFsiRlJBIiwiMjAyNi0wNy0yMCIsIk1VQyIsbnVsbCwiTEgiLCIxMjAiXSxbIk1VQyIsIjIwMjYtMDctMjAiLCJIQU0iLG51bGwsIkxIIiwiMjA3OCJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 03:00"
+            },
+            "arrival_airport": {
+              "name": "Frankfurt Airport",
+              "id": "FRA",
+              "time": "2026-07-20 09:05"
+            },
+            "duration": 575,
+            "airplane": "Boeing 747",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 755",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 505 kg"
+            ],
+            "overnight": true,
+            "often_delayed_by_over_30_min": true
+          },
+          {
+            "departure_airport": {
+              "name": "Frankfurt Airport",
+              "id": "FRA",
+              "time": "2026-07-20 19:15"
+            },
+            "arrival_airport": {
+              "name": "Munich International Airport",
+              "id": "MUC",
+              "time": "2026-07-20 20:10"
+            },
+            "duration": 55,
+            "airplane": "Airbus A320",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 122",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Carbon emissions estimate: 47 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Munich International Airport",
+              "id": "MUC",
+              "time": "2026-07-20 21:15"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 22:30"
+            },
+            "duration": 75,
+            "airplane": "Airbus A321",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 2078",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Wi-Fi for a fee",
+              "Carbon emissions estimate: 74 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 610,
+            "name": "Frankfurt Airport",
+            "id": "FRA"
+          },
+          {
+            "duration": 65,
+            "name": "Munich International Airport",
+            "id": "MUC"
+          }
+        ],
+        "total_duration": 1380,
+        "carbon_emissions": {
+          "this_flight": 627000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 19
+        },
+        "price": 816,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFaEpNU0RjMU5YeE1TREV5TW54TVNESXdOemdhQ3dpcC9RUVFBaG9EVlZORU9CeHdxZjBFIixbWyJCTFIiLCIyMDI2LTA3LTIwIiwiRlJBIixudWxsLCJMSCIsIjc1NSJdLFsiRlJBIiwiMjAyNi0wNy0yMCIsIk1VQyIsbnVsbCwiTEgiLCIxMjIiXSxbIk1VQyIsIjIwMjYtMDctMjAiLCJIQU0iLG51bGwsIkxIIiwiMjA3OCJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 04:45"
+            },
+            "arrival_airport": {
+              "name": "Dubai International Airport",
+              "id": "DXB",
+              "time": "2026-07-20 07:05"
+            },
+            "duration": 230,
+            "airplane": "Airbus A380",
+            "airline": "Emirates",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "travel_class": "Economy",
+            "flight_number": "EK 569",
+            "legroom": "32 in",
+            "extensions": [
+              "Above average legroom (32 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 204 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Dubai International Airport",
+              "id": "DXB",
+              "time": "2026-07-20 08:45"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 13:35"
+            },
+            "duration": 410,
+            "airplane": "Boeing 777",
+            "airline": "Emirates",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+            "travel_class": "Economy",
+            "flight_number": "EK 59",
+            "ticket_also_sold_by": [
+              "Qantas"
+            ],
+            "legroom": "32 in",
+            "extensions": [
+              "Above average legroom (32 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 372 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 100,
+            "name": "Dubai International Airport",
+            "id": "DXB"
+          }
+        ],
+        "total_duration": 740,
+        "carbon_emissions": {
+          "this_flight": 577000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 9
+        },
+        "price": 865,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/EK.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFZ3hGU3pVMk9YeEZTelU1SXpJYUN3akVvd1VRQWhvRFZWTkVPQnh3eEtNRiIsW1siQkxSIiwiMjAyNi0wNy0yMCIsIkRYQiIsbnVsbCwiRUsiLCI1NjkiXSxbIkRYQiIsIjIwMjYtMDctMjAiLCJIQU0iLG51bGwsIkVLIiwiNTkiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 20:00"
+            },
+            "arrival_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-07-20 22:45"
+            },
+            "duration": 165,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 2818",
+            "ticket_also_sold_by": [
+              "SWISS"
+            ],
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 139 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-07-21 01:40"
+            },
+            "arrival_airport": {
+              "name": "Zurich Airport",
+              "id": "ZRH",
+              "time": "2026-07-21 06:55"
+            },
+            "duration": 525,
+            "airplane": "Airbus A330",
+            "airline": "SWISS",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
+            "travel_class": "Economy",
+            "flight_number": "LX 2647",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Wi-Fi for a fee",
+              "In-seat USB outlet",
+              "On-demand video",
+              "Carbon emissions estimate: 347 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Zurich Airport",
+              "id": "ZRH",
+              "time": "2026-07-21 08:30"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-21 10:00"
+            },
+            "duration": 90,
+            "airplane": "Embraer 190",
+            "airline": "SWISS",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
+            "travel_class": "Economy",
+            "flight_number": "LX 1052",
+            "legroom": "29 in",
+            "extensions": [
+              "Below average legroom (29 in)",
+              "Carbon emissions estimate: 92 kg"
+            ],
+            "plane_and_crew_by": "Helvetic"
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 175,
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL"
+          },
+          {
+            "duration": 95,
+            "name": "Zurich Airport",
+            "id": "ZRH"
+          }
+        ],
+        "total_duration": 1050,
+        "carbon_emissions": {
+          "this_flight": 580000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 10
+        },
+        "price": 866,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFaFpCU1RJNE1UaDhURmd5TmpRM2ZFeFlNVEExTWlNeEdnc0l4YVFGRUFJYUExVlRSRGdjY01Xa0JRPT0iLFtbIkJMUiIsIjIwMjYtMDctMjAiLCJERUwiLG51bGwsIkFJIiwiMjgxOCJdLFsiREVMIiwiMjAyNi0wNy0yMSIsIlpSSCIsbnVsbCwiTFgiLCIyNjQ3Il0sWyJaUkgiLCIyMDI2LTA3LTIxIiwiSEFNIixudWxsLCJMWCIsIjEwNTIiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 20:00"
+            },
+            "arrival_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-07-20 22:45"
+            },
+            "duration": 165,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 2818",
+            "ticket_also_sold_by": [
+              "SWISS"
+            ],
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 139 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-07-21 01:05"
+            },
+            "arrival_airport": {
+              "name": "Zurich Airport",
+              "id": "ZRH",
+              "time": "2026-07-21 06:20"
+            },
+            "duration": 525,
+            "airplane": "Airbus A330",
+            "airline": "SWISS",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
+            "travel_class": "Economy",
+            "flight_number": "LX 147",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Wi-Fi for a fee",
+              "In-seat USB outlet",
+              "On-demand video",
+              "Carbon emissions estimate: 347 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Zurich Airport",
+              "id": "ZRH",
+              "time": "2026-07-21 08:30"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-21 10:00"
+            },
+            "duration": 90,
+            "airplane": "Embraer 190",
+            "airline": "SWISS",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LX.png",
+            "travel_class": "Economy",
+            "flight_number": "LX 1052",
+            "legroom": "29 in",
+            "extensions": [
+              "Below average legroom (29 in)",
+              "Carbon emissions estimate: 92 kg"
+            ],
+            "plane_and_crew_by": "Helvetic"
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 140,
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL"
+          },
+          {
+            "duration": 130,
+            "name": "Zurich Airport",
+            "id": "ZRH"
+          }
+        ],
+        "total_duration": 1050,
+        "carbon_emissions": {
+          "this_flight": 580000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 10
+        },
+        "price": 866,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFaFZCU1RJNE1UaDhURmd4TkRkOFRGZ3hNRFV5SXpFYUN3akZwQVVRQWhvRFZWTkVPQnh3eGFRRiIsW1siQkxSIiwiMjAyNi0wNy0yMCIsIkRFTCIsbnVsbCwiQUkiLCIyODE4Il0sWyJERUwiLCIyMDI2LTA3LTIxIiwiWlJIIixudWxsLCJMWCIsIjE0NyJdLFsiWlJIIiwiMjAyNi0wNy0yMSIsIkhBTSIsbnVsbCwiTFgiLCIxMDUyIl1dXQ=="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 03:00"
+            },
+            "arrival_airport": {
+              "name": "Frankfurt Airport",
+              "id": "FRA",
+              "time": "2026-07-20 09:05"
+            },
+            "duration": 575,
+            "airplane": "Boeing 747",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 755",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 505 kg"
+            ],
+            "overnight": true,
+            "often_delayed_by_over_30_min": true
+          },
+          {
+            "departure_airport": {
+              "name": "Frankfurt Airport",
+              "id": "FRA",
+              "time": "2026-07-20 16:00"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 17:05"
+            },
+            "duration": 65,
+            "airplane": "Airbus A320neo",
+            "airline": "Lufthansa City Airlines",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+            "travel_class": "Economy",
+            "flight_number": "VL 24",
+            "ticket_also_sold_by": [
+              "Lufthansa"
+            ],
+            "legroom": "29 in",
+            "extensions": [
+              "Below average legroom (29 in)",
+              "In-seat USB outlet",
+              "Carbon emissions estimate: 52 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 415,
+            "name": "Frankfurt Airport",
+            "id": "FRA"
+          }
+        ],
+        "total_duration": 1055,
+        "carbon_emissions": {
+          "this_flight": 557000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 5
+        },
+        "price": 878,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFZ3BNU0RjMU5YeFdUREkwR2dzSWw2MEZFQUlhQTFWVFJEZ2NjSmV0QlE9PSIsW1siQkxSIiwiMjAyNi0wNy0yMCIsIkZSQSIsbnVsbCwiTEgiLCI3NTUiXSxbIkZSQSIsIjIwMjYtMDctMjAiLCJIQU0iLG51bGwsIlZMIiwiMjQiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 03:00"
+            },
+            "arrival_airport": {
+              "name": "Frankfurt Airport",
+              "id": "FRA",
+              "time": "2026-07-20 09:05"
+            },
+            "duration": 575,
+            "airplane": "Boeing 747",
+            "airline": "Lufthansa",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LH.png",
+            "travel_class": "Economy",
+            "flight_number": "LH 755",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 505 kg"
+            ],
+            "overnight": true,
+            "often_delayed_by_over_30_min": true
+          },
+          {
+            "departure_airport": {
+              "name": "Frankfurt Airport",
+              "id": "FRA",
+              "time": "2026-07-20 13:00"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 14:05"
+            },
+            "duration": 65,
+            "airplane": "Airbus A320neo",
+            "airline": "Lufthansa City Airlines",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/VL.png",
+            "travel_class": "Economy",
+            "flight_number": "VL 18",
+            "ticket_also_sold_by": [
+              "Lufthansa"
+            ],
+            "legroom": "29 in",
+            "extensions": [
+              "Below average legroom (29 in)",
+              "In-seat USB outlet",
+              "Carbon emissions estimate: 52 kg"
+            ],
+            "often_delayed_by_over_30_min": true
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 235,
+            "name": "Frankfurt Airport",
+            "id": "FRA"
+          }
+        ],
+        "total_duration": 875,
+        "carbon_emissions": {
+          "this_flight": 557000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 5
+        },
+        "price": 973,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFZ3hNU0RjMU5YeFdUREU0SXpJYUN3akQ5d1VRQWhvRFZWTkVPQnh3dy9jRiIsW1siQkxSIiwiMjAyNi0wNy0yMCIsIkZSQSIsbnVsbCwiTEgiLCI3NTUiXSxbIkZSQSIsIjIwMjYtMDctMjAiLCJIQU0iLG51bGwsIlZMIiwiMTgiXV1d"
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 03:20"
+            },
+            "arrival_airport": {
+              "name": "Heathrow Airport",
+              "id": "LHR",
+              "time": "2026-07-20 09:35"
+            },
+            "duration": 645,
+            "airplane": "Boeing 787",
+            "airline": "British Airways",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+            "travel_class": "Economy",
+            "flight_number": "BA 130",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 431 kg"
+            ],
+            "overnight": true,
+            "often_delayed_by_over_30_min": true
+          },
+          {
+            "departure_airport": {
+              "name": "Heathrow Airport",
+              "id": "LHR",
+              "time": "2026-07-20 14:15"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 16:55"
+            },
+            "duration": 100,
+            "airplane": "Airbus A320",
+            "airline": "British Airways",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+            "travel_class": "Economy",
+            "flight_number": "BA 966",
+            "legroom": "29 in",
+            "extensions": [
+              "Below average legroom (29 in)",
+              "Wi-Fi for a fee",
+              "In-seat USB outlet",
+              "Carbon emissions estimate: 77 kg"
+            ],
+            "often_delayed_by_over_30_min": true
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 280,
+            "name": "Heathrow Airport",
+            "id": "LHR"
+          }
+        ],
+        "total_duration": 1025,
+        "carbon_emissions": {
+          "this_flight": 509000,
+          "typical_for_this_route": 528000,
+          "difference_percent": -4
+        },
+        "price": 1048,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFZzFDUVRFek1IeENRVGsyTmlNeEdnc0l6N0lHRUFJYUExVlRSRGdjY00reUJnPT0iLFtbIkJMUiIsIjIwMjYtMDctMjAiLCJMSFIiLG51bGwsIkJBIiwiMTMwIl0sWyJMSFIiLCIyMDI2LTA3LTIwIiwiSEFNIixudWxsLCJCQSIsIjk2NiJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 03:20"
+            },
+            "arrival_airport": {
+              "name": "Heathrow Airport",
+              "id": "LHR",
+              "time": "2026-07-20 09:35"
+            },
+            "duration": 645,
+            "airplane": "Boeing 787",
+            "airline": "British Airways",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+            "travel_class": "Economy",
+            "flight_number": "BA 130",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 431 kg"
+            ],
+            "overnight": true,
+            "often_delayed_by_over_30_min": true
+          },
+          {
+            "departure_airport": {
+              "name": "Heathrow Airport",
+              "id": "LHR",
+              "time": "2026-07-20 11:05"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 13:40"
+            },
+            "duration": 95,
+            "airplane": "Airbus A319",
+            "airline": "British Airways",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+            "travel_class": "Economy",
+            "flight_number": "BA 964",
+            "legroom": "29 in",
+            "extensions": [
+              "Below average legroom (29 in)",
+              "In-seat USB outlet",
+              "Carbon emissions estimate: 89 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 90,
+            "name": "Heathrow Airport",
+            "id": "LHR"
+          }
+        ],
+        "total_duration": 830,
+        "carbon_emissions": {
+          "this_flight": 520000,
+          "typical_for_this_route": 528000,
+          "difference_percent": -2
+        },
+        "price": 1146,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/BA.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFZzFDUVRFek1IeENRVGsyTkNNeEdnc0l6djRHRUFJYUExVlRSRGdjY003K0JnPT0iLFtbIkJMUiIsIjIwMjYtMDctMjAiLCJMSFIiLG51bGwsIkJBIiwiMTMwIl0sWyJMSFIiLCIyMDI2LTA3LTIwIiwiSEFNIixudWxsLCJCQSIsIjk2NCJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 00:15"
+            },
+            "arrival_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-07-20 03:10"
+            },
+            "duration": 175,
+            "airplane": "Airbus A320neo",
+            "airline": "Air India",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AI.png",
+            "travel_class": "Economy",
+            "flight_number": "AI 2758",
+            "ticket_also_sold_by": [
+              "LOT"
+            ],
+            "legroom": "28 in",
+            "extensions": [
+              "Below average legroom (28 in)",
+              "In-seat USB outlet",
+              "Stream media to your device",
+              "Carbon emissions estimate: 139 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Indira Gandhi International Airport",
+              "id": "DEL",
+              "time": "2026-07-20 08:00"
+            },
+            "arrival_airport": {
+              "name": "Warsaw Frederic Chopin",
+              "id": "WAW",
+              "time": "2026-07-20 12:40"
+            },
+            "duration": 490,
+            "airplane": "Boeing 787",
+            "airline": "LOT",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LO.png",
+            "travel_class": "Economy",
+            "flight_number": "LO 72",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 352 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Warsaw Frederic Chopin",
+              "id": "WAW",
+              "time": "2026-07-20 17:05"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 18:45"
+            },
+            "duration": 100,
+            "airplane": "Embraer 175",
+            "airline": "LOT",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/LO.png",
+            "travel_class": "Economy",
+            "flight_number": "LO 393",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "Carbon emissions estimate: 104 kg"
+            ]
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 290,
+            "name": "Indira Gandhi International Airport",
+            "id": "DEL"
+          },
+          {
+            "duration": 265,
+            "name": "Warsaw Frederic Chopin",
+            "id": "WAW"
+          }
+        ],
+        "total_duration": 1320,
+        "carbon_emissions": {
+          "this_flight": 596000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 13
+        },
+        "price": 1162,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFaE5CU1RJM05UaDhURTgzTW54TVR6TTVNeU14R2dzSXFvc0hFQUlhQTFWVFJEZ2NjS3FMQnc9PSIsW1siQkxSIiwiMjAyNi0wNy0yMCIsIkRFTCIsbnVsbCwiQUkiLCIyNzU4Il0sWyJERUwiLCIyMDI2LTA3LTIwIiwiV0FXIixudWxsLCJMTyIsIjcyIl0sWyJXQVciLCIyMDI2LTA3LTIwIiwiSEFNIixudWxsLCJMTyIsIjM5MyJdXV0="
+      },
+      {
+        "flights": [
+          {
+            "departure_airport": {
+              "name": "Kempegowda International Airport Bengaluru",
+              "id": "BLR",
+              "time": "2026-07-20 01:25"
+            },
+            "arrival_airport": {
+              "name": "Aéroport de Paris-Charles de Gaulle",
+              "id": "CDG",
+              "time": "2026-07-20 08:00"
+            },
+            "duration": 605,
+            "airplane": "Boeing 787",
+            "airline": "Air France",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/AF.png",
+            "travel_class": "Economy",
+            "flight_number": "AF 191",
+            "ticket_also_sold_by": [
+              "KLM"
+            ],
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "Wi-Fi for a fee",
+              "In-seat power & USB outlets",
+              "On-demand video",
+              "Carbon emissions estimate: 446 kg"
+            ],
+            "overnight": true
+          },
+          {
+            "departure_airport": {
+              "name": "Aéroport de Paris-Charles de Gaulle",
+              "id": "CDG",
+              "time": "2026-07-20 09:40"
+            },
+            "arrival_airport": {
+              "name": "Amsterdam Airport Schiphol",
+              "id": "AMS",
+              "time": "2026-07-20 10:55"
+            },
+            "duration": 75,
+            "airplane": "Boeing 737",
+            "airline": "KLM",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
+            "travel_class": "Economy",
+            "flight_number": "KL 1404",
+            "legroom": "30 in",
+            "extensions": [
+              "Average legroom (30 in)",
+              "In-seat USB outlet",
+              "Carbon emissions estimate: 50 kg"
+            ]
+          },
+          {
+            "departure_airport": {
+              "name": "Amsterdam Airport Schiphol",
+              "id": "AMS",
+              "time": "2026-07-20 13:00"
+            },
+            "arrival_airport": {
+              "name": "Hamburg Airport",
+              "id": "HAM",
+              "time": "2026-07-20 14:05"
+            },
+            "duration": 65,
+            "airplane": "Embraer 190",
+            "airline": "KLM",
+            "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/KL.png",
+            "travel_class": "Economy",
+            "flight_number": "KL 1755",
+            "legroom": "31 in",
+            "extensions": [
+              "Average legroom (31 in)",
+              "In-seat USB outlet",
+              "Carbon emissions estimate: 65 kg"
+            ],
+            "plane_and_crew_by": "KLM Cityhopper"
+          }
+        ],
+        "layovers": [
+          {
+            "duration": 100,
+            "name": "Aéroport de Paris-Charles de Gaulle",
+            "id": "CDG"
+          },
+          {
+            "duration": 125,
+            "name": "Amsterdam Airport Schiphol",
+            "id": "AMS"
+          }
+        ],
+        "total_duration": 970,
+        "carbon_emissions": {
+          "this_flight": 563000,
+          "typical_for_this_route": 528000,
+          "difference_percent": 7
+        },
+        "price": 1332,
+        "type": "Round trip",
+        "airline_logo": "https://www.gstatic.com/flights/airline_logos/70px/multi.png",
+        "departure_token": "WyJDalJJUVROSVRtbEpYMGd5U0d0QlRrcDNZMmRDUnkwdExTMHRMUzB0TFc5NWJta3hORUZCUVVGQlIzQkpNWE00U0dSd2NFTkJFaE5CUmpFNU1YeExUREUwTURSOFMwd3hOelUxR2dzSWdKQUlFQUlhQTFWVFJEZ2NjSUNRQ0E9PSIsW1siQkxSIiwiMjAyNi0wNy0yMCIsIkNERyIsbnVsbCwiQUYiLCIxOTEiXSxbIkNERyIsIjIwMjYtMDctMjAiLCJBTVMiLG51bGwsIktMIiwiMTQwNCJdLFsiQU1TIiwiMjAyNi0wNy0yMCIsIkhBTSIsbnVsbCwiS0wiLCIxNzU1Il1dXQ=="
+      }
+    ],
+    "price_insights": {
+      "lowest_price": 799,
+      "price_level": "typical",
+      "typical_price_range": [
+        780,
+        1050
+      ]
+    },
+    "airports": [
+      {
+        "departure": [
+          {
+            "airport": {
+              "id": "BLR",
+              "name": "Kempegowda International Airport Bengaluru"
+            },
+            "city": "Bengaluru",
+            "country": "India",
+            "country_code": "IN",
+            "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQIQIUfZg6v3rdHMVD96D5vTNuXwVO7zsdZy0l7s2uiyV-xuK8nJlokAp_ChoLy9r0vjJWcOOBkEvBI2g",
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFrS_QMxzjURYrYSPiuRW9uR9imYuBAhdE49jwKag7Ucgl0en4CNAtP0hf1MDSGdvhAw2s1-2w71_b-pcIyFOM1F1yMSPQLO5_XlgJc_4"
+          }
+        ],
+        "arrival": [
+          {
+            "airport": {
+              "id": "HAM",
+              "name": "Hamburg Airport"
+            },
+            "city": "Hamburg",
+            "country": "Germany",
+            "country_code": "DE",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlM8-yTtWqvEswK4BuEyNrKn01JB5m7Tza6pkzGaVRtFL3du_vAIW1Fg6bALoNUUMzTMRlxB_0Ce2Dsw",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1u2weFSXkgg5I9RYaOjEN0YXJxjNviK71O-pRi54uUs53CcdZvrxl7g_48gvGG2OjJnOveqHL4dNsNFQdSM2rJoj-vfkjbpsseUOuNI"
+          }
+        ]
+      },
+      {
+        "departure": [
+          {
+            "airport": {
+              "id": "HAM",
+              "name": "Hamburg Airport"
+            },
+            "city": "Hamburg",
+            "country": "Germany",
+            "country_code": "DE",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlM8-yTtWqvEswK4BuEyNrKn01JB5m7Tza6pkzGaVRtFL3du_vAIW1Fg6bALoNUUMzTMRlxB_0Ce2Dsw",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA1u2weFSXkgg5I9RYaOjEN0YXJxjNviK71O-pRi54uUs53CcdZvrxl7g_48gvGG2OjJnOveqHL4dNsNFQdSM2rJoj-vfkjbpsseUOuNI"
+          }
+        ],
+        "arrival": [
+          {
+            "airport": {
+              "id": "BLR",
+              "name": "Kempegowda International Airport Bengaluru"
+            },
+            "city": "Bengaluru",
+            "country": "India",
+            "country_code": "IN",
+            "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQIQIUfZg6v3rdHMVD96D5vTNuXwVO7zsdZy0l7s2uiyV-xuK8nJlokAp_ChoLy9r0vjJWcOOBkEvBI2g",
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSFrS_QMxzjURYrYSPiuRW9uR9imYuBAhdE49jwKag7Ucgl0en4CNAtP0hf1MDSGdvhAw2s1-2w71_b-pcIyFOM1F1yMSPQLO5_XlgJc_4"
+          }
+        ]
+      }
+    ]
+  }
+}

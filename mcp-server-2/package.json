@@ -1,0 +1,30 @@
+{
+  "name": "mcp-hello-world",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP Hello World on Render",
+  "main": "server.ts",
+  "repository": "https://github.com/render-examples/express-hello-world",
+  "author": "Render Developers",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "tsx server.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.0.0",
+    "openmeteo": "^1.2.3",
+    "overpass-ts": "^4.3.8",
+    "serpapi": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.0.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
